@@ -1,5 +1,5 @@
 FROM phusion/baseimage:0.9.15
-MAINTAINER Brian Prodoehl <bprodoehl@connectify.me>
+MAINTAINER Toobian <toobian@helioxy.net>
 
 ENV HOME /root
 CMD ["/sbin/my_init"]
