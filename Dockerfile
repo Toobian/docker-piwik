@@ -47,7 +47,6 @@ RUN cd /usr/share/nginx/html/misc && \
 
 ADD config/piwik-schema.sql /usr/share/nginx/html/config/base-schema.sql
 
-ADD scripts/generate-certs.sh /etc/my_init.d/05-certs.sh
 ADD scripts/init-piwik.sh /etc/my_init.d/10-piwik.sh
 
 RUN touch /etc/service/sshd/down
